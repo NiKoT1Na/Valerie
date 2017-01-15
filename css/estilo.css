@@ -1,0 +1,243 @@
+body{
+
+	background-image: url("../img/background.png");
+	background-position: top center;
+	/*font-family: "Century Gothic", "Arial";*/
+	font-family: 'Indie Flower', cursive;
+	color: #977222;
+
+}
+
+#titulo{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	border:none;
+	/*max-width: 40em;*/
+
+}
+
+
+.titlesito{
+	display: block;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center
+}
+
+#wrapper {
+	clear: both;
+	display: flex;
+
+
+
+}
+
+#menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+
+}
+
+#redes{
+	order: 0;
+	align-items: left;
+	justify-content: justify;
+	flex: 1 6 10%;
+	padding: 12px;
+}
+
+#principal{
+
+	order: 1;
+	align-items: center;
+	justify-content: justify;
+	margin-left: 1em;
+	margin-right: 1em;
+	flex: 2 6 50%;
+	margin-bottom: 2em;
+
+}
+
+#ppal{
+	order: 1;
+	align-items: center;
+	/*justify-content: center;*/
+	font-size: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	flex: 1 6 40%;
+	margin-bottom: 2em;
+}
+
+.formu{
+	font-size: 0.7em;
+
+}
+
+#sidebar {
+	padding-top: 1em;
+	order: 2;
+	align-items: right;
+	justify-content: justify;
+	flex: 1 6 10%;
+
+}
+
+/*#posts{
+order: 3;
+align-items: right;
+justify-content: justify;
+flex: 1 6 10%;
+
+}
+
+#tags{
+order: 3;
+align-items: right;
+justify-content: justify;
+flex: 1 6 10%;
+}*/
+
+
+.titulero{
+
+	font-size: 2em;
+	text-align: center;
+	justify-content: center;
+}
+
+#subida{
+	font-size: 2em;
+	text-align: center;
+	justify-content: center;
+}	
+
+#peque{
+	font-size: 0.8em;
+
+}
+
+.prodimagen {
+	max-width: 600px;
+	max-height: 600px;
+	display: block;
+	margin: auto;
+
+}
+
+/*.product > * {
+    display: inline-block;
+    vertical-align:top;
+}
+
+.product {
+    clear: both;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+*/
+
+.nombre{
+
+	text-align: center;
+}
+
+.product{
+
+	border: 4px solid #2AC9A3;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.descripcion{
+
+	text-align: justify;
+}
+
+.imgsn{
+
+	max-width: 5em;
+	max-height: 5em;
+	display: block;
+	margin-right: auto;
+	margin-left: 2em;
+}
+
+
+.editing{
+	
+	text-align: right;
+
+}
+
+.deleting{
+	
+	text-align: right;
+
+}
+
+.formuleishon{
+	display: block;
+	align-items: center;
+	color: black;
+	margin-top: 3em;
+}
+
+#USERN {
+	font-size: 1.5em;
+	float: right;
+}
+
+.createuser{
+	font-size: 2em;
+	text-align: center;
+}
+
+.tiny {
+
+	font-size: .65em;
+
+}
+
+#derecha{
+	margin-left: 5em;
+
+}
+
+#izquierda{
+	margin-right: .1em;
+
+}
+
+.show_review{
+
+	background-color: white;
+	/*border: 4px solid #2AC9A3;
+	border-radius: 25px;*/
+}
+
+.caja{
+
+	border: 4px solid #482507;
+	border-radius: 25px;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+
+#estrellitas{
+	max-height: 1.5em;
+}
+
+#container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
